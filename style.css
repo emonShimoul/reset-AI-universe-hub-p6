@@ -1,0 +1,37 @@
+.modal-left {
+  border: 1px solid #eb5757;
+  background-color: #fef7f7;
+  width: 50%;
+  /* color: red; */
+}
+
+.modal-right {
+  width: 50%;
+  position: relative;
+}
+
+.accuracy {
+  background-color: #eb5757;
+  color: white;
+  width: 110px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 0;
+  position: absolute;
+  left: 74%;
+  top: 8%;
+}
+
+@media screen and (max-width: 576px) {
+  .modal-right {
+    width: 100%;
+  }
+  .modal-left {
+    width: 100%;
+  }
+  .accuracy {
+    left: 58%;
+    top: 10%;
+  }
+}
